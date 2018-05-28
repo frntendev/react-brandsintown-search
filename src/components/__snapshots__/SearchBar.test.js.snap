@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar renders component itself correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SearchBar />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="css-1h39y3a-textfieldArea"
+        >
+          <h1
+            className="css-cdfr3j-title"
+          >
+            Search for your favorite artist
+          </h1>
+          <form
+            action="search"
+            className="css-n3e1v5-form"
+            onSubmit={[Function]}
+            type="get"
+          >
+            <input
+              autoComplete="off"
+              className="css-1u1pxsd-input-transparent"
+              id="artist-input"
+              name="name"
+              onChange={[Function]}
+              type="search"
+              value=""
+            />
+            <svg
+              className="css-1uqe3un-icon"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M15.56 15.56c-0.587 0.587-1.538 0.587-2.125 0l-2.652-2.652c-1.090 0.699-2.379 1.116-3.771 1.116-3.872 0-7.012-3.139-7.012-7.012s3.14-7.012 7.012-7.012c3.873 0 7.012 3.139 7.012 7.012 0 1.391-0.417 2.68-1.116 3.771l2.652 2.652c0.587 0.587 0.587 1.538 0 2.125zM7.012 2.003c-2.766 0-5.009 2.242-5.009 5.009s2.243 5.009 5.009 5.009c2.766 0 5.009-2.242 5.009-5.009s-2.242-5.009-5.009-5.009z"
+              />
+            </svg>
+          </form>
+        </div>,
+        undefined,
+      ],
+      "className": "css-156hyeb-root",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1
+              className="css-cdfr3j-title"
+            >
+              Search for your favorite artist
+            </h1>,
+            <form
+              action="search"
+              className="css-n3e1v5-form"
+              onSubmit={[Function]}
+              type="get"
+            >
+              <input
+                autoComplete="off"
+                className="css-1u1pxsd-input-transparent"
+                id="artist-input"
+                name="name"
+                onChange={[Function]}
+                type="search"
+                value=""
+              />
+              <svg
+                className="css-1uqe3un-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15.56 15.56c-0.587 0.587-1.538 0.587-2.125 0l-2.652-2.652c-1.090 0.699-2.379 1.116-3.771 1.116-3.872 0-7.012-3.139-7.012-7.012s3.14-7.012 7.012-7.012c3.873 0 7.012 3.139 7.012 7.012 0 1.391-0.417 2.68-1.116 3.771l2.652 2.652c0.587 0.587 0.587 1.538 0 2.125zM7.012 2.003c-2.766 0-5.009 2.242-5.009 5.009s2.243 5.009 5.009 5.009c2.766 0 5.009-2.242 5.009-5.009s-2.242-5.009-5.009-5.009z"
+                />
+              </svg>
+            </form>,
+          ],
+          "className": "css-1h39y3a-textfieldArea",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Search for your favorite artist",
+              "className": "css-cdfr3j-title",
+            },
+            "ref": null,
+            "rendered": "Search for your favorite artist",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "action": "search",
+              "children": Array [
+                <input
+                  autoComplete="off"
+                  className="css-1u1pxsd-input-transparent"
+                  id="artist-input"
+                  name="name"
+                  onChange={[Function]}
+                  type="search"
+                  value=""
+                />,
+                <svg
+                  className="css-1uqe3un-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M15.56 15.56c-0.587 0.587-1.538 0.587-2.125 0l-2.652-2.652c-1.090 0.699-2.379 1.116-3.771 1.116-3.872 0-7.012-3.139-7.012-7.012s3.14-7.012 7.012-7.012c3.873 0 7.012 3.139 7.012 7.012 0 1.391-0.417 2.68-1.116 3.771l2.652 2.652c0.587 0.587 0.587 1.538 0 2.125zM7.012 2.003c-2.766 0-5.009 2.242-5.009 5.009s2.243 5.009 5.009 5.009c2.766 0 5.009-2.242 5.009-5.009s-2.242-5.009-5.009-5.009z"
+                  />
+                </svg>,
+              ],
+              "className": "css-n3e1v5-form",
+              "onSubmit": [Function],
+              "type": "get",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "autoComplete": "off",
+                  "className": "css-1u1pxsd-input-transparent",
+                  "id": "artist-input",
+                  "name": "name",
+                  "onChange": [Function],
+                  "placeholder": undefined,
+                  "type": "search",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <path
+                    d="M15.56 15.56c-0.587 0.587-1.538 0.587-2.125 0l-2.652-2.652c-1.090 0.699-2.379 1.116-3.771 1.116-3.872 0-7.012-3.139-7.012-7.012s3.14-7.012 7.012-7.012c3.873 0 7.012 3.139 7.012 7.012 0 1.391-0.417 2.68-1.116 3.771l2.652 2.652c0.587 0.587 0.587 1.538 0 2.125zM7.012 2.003c-2.766 0-5.009 2.242-5.009 5.009s2.243 5.009 5.009 5.009c2.766 0 5.009-2.242 5.009-5.009s-2.242-5.009-5.009-5.009z"
+                  />,
+                  "className": "css-1uqe3un-icon",
+                  "viewBox": "0 0 16 16",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "d": "M15.56 15.56c-0.587 0.587-1.538 0.587-2.125 0l-2.652-2.652c-1.090 0.699-2.379 1.116-3.771 1.116-3.872 0-7.012-3.139-7.012-7.012s3.14-7.012 7.012-7.012c3.873 0 7.012 3.139 7.012 7.012 0 1.391-0.417 2.68-1.116 3.771l2.652 2.652c0.587 0.587 0.587 1.538 0 2.125zM7.012 2.003c-2.766 0-5.009 2.242-5.009 5.009s2.243 5.009 5.009 5.009c2.766 0 5.009-2.242 5.009-5.009s-2.242-5.009-5.009-5.009z",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "path",
+                },
+                "type": "svg",
+              },
+            ],
+            "type": "form",
+          },
+        ],
+        "type": "div",
+      },
+      undefined,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="css-1h39y3a-textfieldArea"
+          >
+            <h1
+              className="css-cdfr3j-title"
+            >
+              Search for your favorite artist
+            </h1>
+            <form
+              action="search"
+              className="css-n3e1v5-form"
+              onSubmit={[Function]}
+              type="get"
+            >
+              <input
+                autoComplete="off"
+                className="css-1u1pxsd-input-transparent"
+                id="artist-input"
+                name="name"
+                onChange={[Function]}
+                type="search"
+                value=""
+              />
+              <svg
+                className="css-1uqe3un-icon"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15.56 15.56c-0.587 0.587-1.538 0.587-2.125 0l-2.652-2.652c-1.090 0.699-2.379 1.116-3.771 1.116-3.872 0-7.012-3.139-7.012-7.012s3.14-7.012 7.012-7.012c3.873 0 7.012 3.139 7.012 7.012 0 1.391-0.417 2.68-1.116 3.771l2.652 2.652c0.587 0.587 0.587 1.538 0 2.125zM7.012 2.003c-2.766 0-5.009 2.242-5.009 5.009s2.243 5.009 5.009 5.009c2.766 0 5.009-2.242 5.009-5.009s-2.242-5.009-5.009-5.009z"
+                />
+              </svg>
+            </form>
+          </div>,
+          undefined,
+        ],
+        "className": "css-156hyeb-root",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1
+                className="css-cdfr3j-title"
+              >
+                Search for your favorite artist
+              </h1>,
+              <form
+                action="search"
+                className="css-n3e1v5-form"
+                onSubmit={[Function]}
+                type="get"
+              >
+                <input
+                  autoComplete="off"
+                  className="css-1u1pxsd-input-transparent"
+                  id="artist-input"
+                  name="name"
+                  onChange={[Function]}
+                  type="search"
+                  value=""
+                />
+                <svg
+                  className="css-1uqe3un-icon"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M15.56 15.56c-0.587 0.587-1.538 0.587-2.125 0l-2.652-2.652c-1.090 0.699-2.379 1.116-3.771 1.116-3.872 0-7.012-3.139-7.012-7.012s3.14-7.012 7.012-7.012c3.873 0 7.012 3.139 7.012 7.012 0 1.391-0.417 2.68-1.116 3.771l2.652 2.652c0.587 0.587 0.587 1.538 0 2.125zM7.012 2.003c-2.766 0-5.009 2.242-5.009 5.009s2.243 5.009 5.009 5.009c2.766 0 5.009-2.242 5.009-5.009s-2.242-5.009-5.009-5.009z"
+                  />
+                </svg>
+              </form>,
+            ],
+            "className": "css-1h39y3a-textfieldArea",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Search for your favorite artist",
+                "className": "css-cdfr3j-title",
+              },
+              "ref": null,
+              "rendered": "Search for your favorite artist",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "action": "search",
+                "children": Array [
+                  <input
+                    autoComplete="off"
+                    className="css-1u1pxsd-input-transparent"
+                    id="artist-input"
+                    name="name"
+                    onChange={[Function]}
+                    type="search"
+                    value=""
+                  />,
+                  <svg
+                    className="css-1uqe3un-icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M15.56 15.56c-0.587 0.587-1.538 0.587-2.125 0l-2.652-2.652c-1.090 0.699-2.379 1.116-3.771 1.116-3.872 0-7.012-3.139-7.012-7.012s3.14-7.012 7.012-7.012c3.873 0 7.012 3.139 7.012 7.012 0 1.391-0.417 2.68-1.116 3.771l2.652 2.652c0.587 0.587 0.587 1.538 0 2.125zM7.012 2.003c-2.766 0-5.009 2.242-5.009 5.009s2.243 5.009 5.009 5.009c2.766 0 5.009-2.242 5.009-5.009s-2.242-5.009-5.009-5.009z"
+                    />
+                  </svg>,
+                ],
+                "className": "css-n3e1v5-form",
+                "onSubmit": [Function],
+                "type": "get",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "autoComplete": "off",
+                    "className": "css-1u1pxsd-input-transparent",
+                    "id": "artist-input",
+                    "name": "name",
+                    "onChange": [Function],
+                    "placeholder": undefined,
+                    "type": "search",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "input",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <path
+                      d="M15.56 15.56c-0.587 0.587-1.538 0.587-2.125 0l-2.652-2.652c-1.090 0.699-2.379 1.116-3.771 1.116-3.872 0-7.012-3.139-7.012-7.012s3.14-7.012 7.012-7.012c3.873 0 7.012 3.139 7.012 7.012 0 1.391-0.417 2.68-1.116 3.771l2.652 2.652c0.587 0.587 0.587 1.538 0 2.125zM7.012 2.003c-2.766 0-5.009 2.242-5.009 5.009s2.243 5.009 5.009 5.009c2.766 0 5.009-2.242 5.009-5.009s-2.242-5.009-5.009-5.009z"
+                    />,
+                    "className": "css-1uqe3un-icon",
+                    "viewBox": "0 0 16 16",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "d": "M15.56 15.56c-0.587 0.587-1.538 0.587-2.125 0l-2.652-2.652c-1.090 0.699-2.379 1.116-3.771 1.116-3.872 0-7.012-3.139-7.012-7.012s3.14-7.012 7.012-7.012c3.873 0 7.012 3.139 7.012 7.012 0 1.391-0.417 2.68-1.116 3.771l2.652 2.652c0.587 0.587 0.587 1.538 0 2.125zM7.012 2.003c-2.766 0-5.009 2.242-5.009 5.009s2.243 5.009 5.009 5.009c2.766 0 5.009-2.242 5.009-5.009s-2.242-5.009-5.009-5.009z",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "path",
+                  },
+                  "type": "svg",
+                },
+              ],
+              "type": "form",
+            },
+          ],
+          "type": "div",
+        },
+        undefined,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

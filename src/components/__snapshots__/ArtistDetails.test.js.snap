@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArtistDetails renders component itself correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ArtistDetails
+    data={
+      Object {
+        "artist": Object {},
+        "event": Object {},
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ArtistCard
+          detailsInfo={
+            Array [
+              undefined,
+              undefined,
+              undefined,
+            ]
+          }
+          id="1"
+          showClose={false}
+        />,
+        undefined,
+      ],
+      "className": "css-19fhf3m-root",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "detailsInfo": Array [
+            undefined,
+            undefined,
+            undefined,
+          ],
+          "id": "1",
+          "image": undefined,
+          "name": undefined,
+          "showClose": false,
+          "url": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      undefined,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ArtistCard
+            detailsInfo={
+              Array [
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+            id="1"
+            showClose={false}
+          />,
+          undefined,
+        ],
+        "className": "css-19fhf3m-root",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "detailsInfo": Array [
+              undefined,
+              undefined,
+              undefined,
+            ],
+            "id": "1",
+            "image": undefined,
+            "name": undefined,
+            "showClose": false,
+            "url": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        undefined,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
